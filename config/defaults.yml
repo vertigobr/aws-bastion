@@ -1,0 +1,18 @@
+---
+## REDE ##
+rede:
+  cidr_block: "10.0.0.0/16"
+  private_subnets:
+    - 10.0.51.0/24
+    - 10.0.52.0/24
+  public_subnets: "10.0.50.0/24"
+## BASTION ##
+bastion:
+  image: "ami-026b57f3c383c2eec"
+  host: "t2.micro"
+  keyname: ""
+
+tags:
+  Project: VKPR
+  Source: aws-bastion
+
