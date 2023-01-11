@@ -8,11 +8,9 @@ rede:
   public_subnets: "10.0.50.0/24"
 ## BASTION ##
 bastion:
-  image: "ami-026b57f3c383c2eec"
+  image: "teste"
   host: "t2.micro"
-  keyname: ""
-
+  keyname: "teste"
 tags:
   Project: VKPR
   Source: aws-bastion
-
